@@ -38,3 +38,32 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tab-animate {
+  opacity: 0;
+  animation: fadeOut 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 420px;
+}
+
+.tab-animate img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-image-container img {
+  height: 130px;
+  width: 130px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

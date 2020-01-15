@@ -58,9 +58,4 @@ describe("Tabs", () => {
         .props().active
     ).toBeFalsy();
   });
-
-  // it("getInactiveTabs", () => {
-  //   const component = shallow(<Tabs {...props} />);
-  //   expect(component.instance().getInactiveTabs().length).toEqual(3);
-  // });
 });
