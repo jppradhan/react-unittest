@@ -1,32 +1,34 @@
 # What and why ?
 
-### UNIT TESTING is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected.
+    UNIT TESTING is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected.
 
-### Unit testing increases confidence in changing/ maintaining code
+    why ?
 
-### Codes are more reusable
+    Unit testing increases confidence in changing/ maintaining code
 
-### The cost of fixing a defect detected during unit testing is lesser in comparison to that of defects detected at higher levels
+    Codes are more reusable
 
-Codes are more reliable
+    The cost of fixing a defect detected during unit testing is lesser in comparison to that of defects detected at higher levels
+
+    Codes are more reliable
 
 # React unit test
 
 ## Set up
 
-## Create a sample project npx create-react-app my-app
+### Create a sample project npx create-react-app my-app
 
     Install enzyme : `npm i --save-dev enzyme enzyme-adapter-react-16`
     Install jest
 
-##Configure Enzyme
+### Configure Enzyme
 
-```
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+    ```
+    import { configure } from 'enzyme';
+    import Adapter from 'enzyme-adapter-react-16';
 
-configure({ adapter: new Adapter() });
-```
+    configure({ adapter: new Adapter() });
+    ```
 
 ## More config on jest
 
